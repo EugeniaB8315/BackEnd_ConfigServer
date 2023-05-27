@@ -1,5 +1,5 @@
 server:
-  port: 8888
+  port: 8080
 
 spring:
   application:
@@ -29,7 +29,7 @@ eureka:
 management:
   endpoint:
     gateway:
-      enable: true
+      enabled: true
   endpoints:
     web:
       exposure:
